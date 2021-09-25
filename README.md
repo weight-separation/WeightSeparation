@@ -1,4 +1,4 @@
-# [PerCom 2021 Submission] Weight Separation for Memory-Efficient and Accurate Deep Multitask Learning on Embedded Systems
+# [PerCom 2022 Submission] Weight Separation for Memory-Efficient and Accurate Deep Multitask Learning on Embedded Systems
 
 ## Introduction
 This is an anonymous open-source repository of the [PerCom 2022](https://www.percom.org/) submission titled "***Weight Separation for Memory-Efficient and Accurate Deep Multitask Learning***". It enables extreme low-memory and accurate deep multitask learning with two types of weight parameters applied to two levels of the system memory hierarchy, i.e., the shared weights for primary memory (level-1) and the exclusive weight for secondary memory (level-2). It first groups the weight parameters of DNNs (deep neural networks) into a set of memory blocks we call weight-pages and then optimally distributes them to primary and secondary memory in order to achieve two seemingly incompatible objectives at the same time, i.e., 1) memory reduction of weight parameters and 2) performance (prediction accuracy) guarantee.
